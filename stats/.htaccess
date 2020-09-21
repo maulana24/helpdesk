@@ -1,0 +1,7 @@
+AuthName "layanantik.untad.ac.id statistics"
+AuthType Basic
+AuthUserFile /home/layanantik/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
